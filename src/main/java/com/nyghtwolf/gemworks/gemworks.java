@@ -4,6 +4,7 @@ import com.nyghtwolf.gemworks.configuration.ConfigurationHandler;
 import com.nyghtwolf.gemworks.gui.GemworksGuiHandler;
 import com.nyghtwolf.gemworks.init.ModBlocks;
 import com.nyghtwolf.gemworks.init.ModItems;
+import com.nyghtwolf.gemworks.init.ModRecipes;
 import com.nyghtwolf.gemworks.init.ModTileEntities;
 import com.nyghtwolf.gemworks.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -36,7 +37,7 @@ public class gemworks {
         ModItems.init();
         ModBlocks.init();
         ModTileEntities.init();
-
+        ModRecipes.init();
     }
 
     @EventHandler
