@@ -1,9 +1,9 @@
-[12:48:28] [main/INFO]: Setting user: Player777
-[12:48:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[12:48:29] [Client thread/ERROR]: Couldn't initialize twitch stream
-[12:48:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[12:48:34] [Sound Library Loader/INFO]: Sound engine started
-[12:48:34] [Client thread/ERROR]: Using missing texture, unable to load gemworks:textures/blocks/MysticInfuser.png
+[20:12:08] [main/INFO]: Setting user: Player963
+[20:12:09] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:12:09] [Client thread/ERROR]: Couldn't initialize twitch stream
+[20:12:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[20:12:14] [Sound Library Loader/INFO]: Sound engine started
+[20:12:14] [Client thread/ERROR]: Using missing texture, unable to load gemworks:textures/blocks/MysticInfuser.png
 java.io.FileNotFoundException: gemworks:textures/blocks/MysticInfuser.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -33,7 +33,7 @@ java.io.FileNotFoundException: gemworks:textures/blocks/MysticInfuser.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[12:48:34] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/GemFuser.png
+[20:12:14] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/GemFuser.png
 java.io.FileNotFoundException: minecraft:textures/blocks/GemFuser.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -63,11 +63,11 @@ java.io.FileNotFoundException: minecraft:textures/blocks/GemFuser.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[12:48:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:48:34] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[12:48:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[12:48:34] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[12:48:34] [Client thread/ERROR]: Using missing texture, unable to load gemworks:textures/blocks/MysticInfuser.png
+[20:12:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:12:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:12:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[20:12:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:12:14] [Client thread/ERROR]: Using missing texture, unable to load gemworks:textures/blocks/MysticInfuser.png
 java.io.FileNotFoundException: gemworks:textures/blocks/MysticInfuser.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -100,7 +100,7 @@ java.io.FileNotFoundException: gemworks:textures/blocks/MysticInfuser.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[12:48:34] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/GemFuser.png
+[20:12:14] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/GemFuser.png
 java.io.FileNotFoundException: minecraft:textures/blocks/GemFuser.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -133,24 +133,24 @@ java.io.FileNotFoundException: minecraft:textures/blocks/GemFuser.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[12:48:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:48:35] [Sound Library Loader/INFO]: Sound engine started
-[12:48:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[12:48:41] [Server thread/INFO]: Generating keypair
-[12:48:41] [Server thread/INFO]: Preparing start region for level 0
-[12:48:42] [Server thread/INFO]: Changing view distance to 8, from 10
-[12:48:42] [Server thread/INFO]: Player777[local:E:20a33283] logged in with entity id 151 at (235.74366334422314, 65.0, 185.83535728684478)
-[12:48:42] [Server thread/INFO]: Player777 joined the game
-[12:48:58] [Server thread/INFO]: Player777 has just earned the achievement [Taking Inventory]
-[12:48:58] [Client thread/INFO]: [CHAT] Player777 has just earned the achievement [Taking Inventory]
-[12:49:13] [Server thread/INFO]: Saving and pausing game...
-[12:49:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[12:49:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[12:49:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[12:49:14] [Server thread/INFO]: Stopping server
-[12:49:14] [Server thread/INFO]: Saving players
-[12:49:14] [Server thread/INFO]: Saving worlds
-[12:49:14] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[12:49:14] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[12:49:14] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[12:49:15] [Client thread/INFO]: Stopping!
+[20:12:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:12:15] [Sound Library Loader/INFO]: Sound engine started
+[20:12:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:12:18] [Server thread/INFO]: Generating keypair
+[20:12:18] [Server thread/INFO]: Preparing start region for level 0
+[20:12:19] [Server thread/INFO]: Changing view distance to 8, from 10
+[20:12:19] [Server thread/INFO]: Player963[local:E:cf0e1f77] logged in with entity id 140 at (232.95918188146905, 65.0, 186.2678778268029)
+[20:12:19] [Server thread/INFO]: Player963 joined the game
+[20:12:32] [Server thread/INFO]: Player963 has just earned the achievement [Taking Inventory]
+[20:12:32] [Client thread/INFO]: [CHAT] Player963 has just earned the achievement [Taking Inventory]
+[20:12:34] [Server thread/INFO]: Saving and pausing game...
+[20:12:34] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:12:34] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:12:34] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:12:35] [Server thread/INFO]: Stopping server
+[20:12:35] [Server thread/INFO]: Saving players
+[20:12:35] [Server thread/INFO]: Saving worlds
+[20:12:35] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:12:35] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:12:35] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:12:36] [Client thread/INFO]: Stopping!

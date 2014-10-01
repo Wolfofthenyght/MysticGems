@@ -16,18 +16,18 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.play.server.S2BPacketChangeGameState;
 import net.minecraft.world.World;
+
+import java.util.List;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
-import net.minecraft.world.World;
 
-import java.util.List;
-
-
-
-public class EntityMysticArrow extends Entity implements IProjectile
+public class EntityEnergizedArrow extends Entity implements IProjectile
 {
     private int field_145791_d = -1;
     private int field_145792_e = -1;
@@ -48,14 +48,14 @@ public class EntityMysticArrow extends Entity implements IProjectile
     private int knockbackStrength;
     private static final String __OBFID = "CL_00001715";
 
-    public EntityMysticArrow(World p_i1753_1_)
+    public EntityEnergizedArrow(World p_i1753_1_)
     {
         super(p_i1753_1_);
         this.renderDistanceWeight = 10.0D;
         this.setSize(0.5F, 0.5F);
     }
 
-    public EntityMysticArrow(World p_i1754_1_, double p_i1754_2_, double p_i1754_4_, double p_i1754_6_)
+    public EntityEnergizedArrow(World p_i1754_1_, double p_i1754_2_, double p_i1754_4_, double p_i1754_6_)
     {
         super(p_i1754_1_);
         this.renderDistanceWeight = 10.0D;
@@ -64,7 +64,7 @@ public class EntityMysticArrow extends Entity implements IProjectile
         this.yOffset = 0.0F;
     }
 
-    public EntityMysticArrow(World p_i1755_1_, EntityLivingBase p_i1755_2_, EntityLivingBase p_i1755_3_, float p_i1755_4_, float p_i1755_5_)
+    public EntityEnergizedArrow(World p_i1755_1_, EntityLivingBase p_i1755_2_, EntityLivingBase p_i1755_3_, float p_i1755_4_, float p_i1755_5_)
     {
         super(p_i1755_1_);
         this.renderDistanceWeight = 10.0D;
@@ -94,7 +94,7 @@ public class EntityMysticArrow extends Entity implements IProjectile
         }
     }
 
-    public EntityMysticArrow(World p_i1756_1_, EntityLivingBase p_i1756_2_, float p_i1756_3_)
+    public EntityEnergizedArrow(World p_i1756_1_, EntityLivingBase p_i1756_2_, float p_i1756_3_)
     {
         super(p_i1756_1_);
         this.renderDistanceWeight = 10.0D;

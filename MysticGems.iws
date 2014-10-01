@@ -64,48 +64,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModItems.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModItems.java">
+      <file leaf-file-name="RenderArrow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/entity/RenderArrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4412569" vertical-offset="305" max-vertical-offset="1496">
-              <caret line="84" column="135" selection-start-line="84" selection-start-column="135" selection-end-line="84" selection-end-column="135" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1802">
+              <caret line="111" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemMysticArrow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemMysticArrow.java">
+      <file leaf-file-name="EntityArrow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/entity/projectile/EntityArrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="8750" max-vertical-offset="9537">
+              <caret line="597" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="597" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityMysticArrow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityMysticArrow.java">
+      <file leaf-file-name="EntityEnergizedArrow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityEnergizedArrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10336">
-              <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="9962">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4927#4928#0" expanded="true" />
-                <element signature="e#4996#4997#0" expanded="true" />
-                <element signature="e#23795#23796#0" expanded="true" />
-                <element signature="e#23823#23824#0" expanded="true" />
-                <element signature="e#23890#23891#0" expanded="true" />
-                <element signature="e#23917#23918#0" expanded="true" />
-                <element signature="e#23969#23970#0" expanded="true" />
-                <element signature="e#24009#24010#0" expanded="true" />
-                <element signature="e#24046#24047#0" expanded="true" />
-                <element signature="e#24080#24081#0" expanded="true" />
-                <element signature="e#24230#24231#0" expanded="true" />
-                <element signature="e#24281#24282#0" expanded="true" />
-                <element signature="e#24423#24424#0" expanded="true" />
-                <element signature="e#24451#24452#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderEnergizedArrow.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/render/RenderEnergizedArrow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="1955">
+              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockGemFuser.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/block/BlockGemFuser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.58469945" vertical-offset="14" max-vertical-offset="799">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,10 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemProsperousMysticGem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemShimmeringMysticGem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemTimelessMysticGem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/PickaxeRedstone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemGemworks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemSwordBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ToolMaterialGem.java" />
@@ -141,12 +145,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/GemT1Material.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/GemT2Material.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/GemT3Material.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/IProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/ServerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/gemworks/lang/en_US.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/block/BlockGemFuser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gui/ContainerGemFuser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/reference/Textures.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemSwordBaseTier1.java" />
@@ -163,14 +165,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/SwordLapisT3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/SwordGlowstoneT3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gui/GuiGemFuser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gui/GemworksGuiHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gemworks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModRecipes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityMysticArrow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModTileEntities.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemMysticArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityMysticArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/RenderEnergizedArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gemworks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemEnergizedArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityEnergizedArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/render/RenderEnergizedArrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/block/BlockGemFuser.java" />
       </list>
     </option>
   </component>
@@ -227,6 +235,60 @@
               <option name="myItemId" value="MysticGems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,25 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MysticGems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MysticGems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.nyghtwolf.gemworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
+              <option name="myItemId" value="render" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,6 +337,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MysticGems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.nyghtwolf.gemworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,6 +641,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17837837" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -590,11 +653,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17837837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18550107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17837837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -626,39 +688,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325792" vertical-offset="692" max-vertical-offset="23205">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/ItemSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemMysticCoreGem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04992658" vertical-offset="0" max-vertical-offset="681">
-          <caret line="2" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/gemworks/textures/items/SwordRedstoneT2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemSwordBaseTier2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="897">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/PickaxeRedstone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36585367" vertical-offset="0" max-vertical-offset="697">
@@ -778,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/block/BlockGemFuser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58391607" vertical-offset="77" max-vertical-offset="935">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/gemworks/lang/en_US.lang">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="858">
@@ -896,40 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/SwordRedstoneT1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31135532" vertical-offset="0" max-vertical-offset="799">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gemworks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9057377" vertical-offset="0" max-vertical-offset="986">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04644809" vertical-offset="0" max-vertical-offset="732">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1625683" vertical-offset="0" max-vertical-offset="732">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemGemworks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -962,58 +950,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModTileEntities.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/SwordRedstoneT1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7199454" vertical-offset="0" max-vertical-offset="799">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/CommonProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1625683" vertical-offset="0" max-vertical-offset="732">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModTileEntities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.175" vertical-offset="0" max-vertical-offset="680">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/entity/projectile/EntityArrow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/gemworks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1961057" vertical-offset="8750" max-vertical-offset="9537">
-          <caret line="559" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="597" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/item/ItemMysticArrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityMysticArrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10336">
-          <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5587432" vertical-offset="305" max-vertical-offset="1037">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4927#4928#0" expanded="true" />
-            <element signature="e#4996#4997#0" expanded="true" />
-            <element signature="e#23795#23796#0" expanded="true" />
-            <element signature="e#23823#23824#0" expanded="true" />
-            <element signature="e#23890#23891#0" expanded="true" />
-            <element signature="e#23917#23918#0" expanded="true" />
-            <element signature="e#23969#23970#0" expanded="true" />
-            <element signature="e#24009#24010#0" expanded="true" />
-            <element signature="e#24046#24047#0" expanded="true" />
-            <element signature="e#24080#24081#0" expanded="true" />
-            <element signature="e#24230#24231#0" expanded="true" />
-            <element signature="e#24281#24282#0" expanded="true" />
-            <element signature="e#24423#24424#0" expanded="true" />
-            <element signature="e#24451#24452#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/init/ModItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4412569" vertical-offset="305" max-vertical-offset="1496">
-          <caret line="84" column="135" selection-start-line="84" selection-start-column="135" selection-end-line="84" selection-end-column="135" />
+        <state vertical-scroll-proportion="0.06967213" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/EntityRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11821975" vertical-offset="0" max-vertical-offset="34765">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/gui/inventory/GuiFurnace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="833">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/tileentity/TileEntityFurnace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1821975" vertical-offset="918" max-vertical-offset="7089">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/crafting/RecipesWeapons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0945758" vertical-offset="0" max-vertical-offset="719">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/entity/projectile/EntityArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8750" max-vertical-offset="9537">
+          <caret line="597" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="597" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/entity/EntityEnergizedArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="9962">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/entity/RenderArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1802">
+          <caret line="111" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/render/RenderEnergizedArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="1955">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nyghtwolf/gemworks/block/BlockGemFuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58469945" vertical-offset="14" max-vertical-offset="799">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -1,9 +1,7 @@
 package com.nyghtwolf.gemworks.init;
 
-import com.nyghtwolf.gemworks.entity.EntityMysticArrow;
 import com.nyghtwolf.gemworks.item.*;
 import com.nyghtwolf.gemworks.reference.Reference;
-import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -43,8 +41,7 @@ public class ModItems
     public static final com.nyghtwolf.gemworks.item.SwordMysticRegalT3 SwordMysticRegalT3 = new com.nyghtwolf.gemworks.item.SwordMysticRegalT3();
 
 
-    //Define Arrows
-    public static final com.nyghtwolf.gemworks.item.ItemMysticArrow MysticArrow = new com.nyghtwolf.gemworks.item.ItemMysticArrow();
+    //Define Mystic Arrows
 
     public static void init()
     {
@@ -80,8 +77,7 @@ public class ModItems
         GameRegistry.registerItem(SwordMysticCoreT2, "SwordMysticCoreT2");
         GameRegistry.registerItem(SwordMysticRegalT3, "SwordMysticRegalT3");
 
-        //Register Mystic Arrow
-        //GameRegistry.registerItem(ItemMysticArrow, "MysticArrow");
-        EntityRegistry.registerGlobalEntityID(EntityMysticArrow.class, "EntityMysticArrow", EntityRegistry.findGlobalUniqueEntityId());
+        //Register Mystic Arrows
+        //GameRegistry.registerItem(ItemEnergizedArrow, "MysticArrow");
     }
 }

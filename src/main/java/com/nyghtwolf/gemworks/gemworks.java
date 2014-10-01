@@ -6,6 +6,7 @@ import com.nyghtwolf.gemworks.init.ModBlocks;
 import com.nyghtwolf.gemworks.init.ModItems;
 import com.nyghtwolf.gemworks.init.ModRecipes;
 import com.nyghtwolf.gemworks.init.ModTileEntities;
+import com.nyghtwolf.gemworks.proxy.ClientProxy;
 import com.nyghtwolf.gemworks.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -13,7 +14,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
-import scala.tools.nsc.settings.Final;
 
 import static cpw.mods.fml.common.Mod.EventHandler;
 
@@ -28,6 +28,7 @@ public class gemworks {
    // @SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
     @SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")
     public static CommonProxy proxy;
+    //public static ClientProxy ClientProxy;
 
 
     @Mod.EventHandler
@@ -38,12 +39,14 @@ public class gemworks {
         ModBlocks.init();
         ModTileEntities.init();
         ModRecipes.init();
+        proxy.registerProxies();
+        //ClientProxy.registerProxies();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event){
         NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
-        proxy.registerProxies();
+
     }
 
     @EventHandler
