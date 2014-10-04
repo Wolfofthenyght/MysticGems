@@ -3,8 +3,10 @@ package com.nyghtwolf.gemworks.block;
 import com.nyghtwolf.gemworks.creativetab.CreativeTabGemworks;
 import com.nyghtwolf.gemworks.gemworks;
 import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
@@ -16,8 +18,8 @@ public class BlockGemFuser extends BlockContainer
     {
         super(Material.iron);
 
-        this.setHardness(4.0F);
-        this.setResistance(10);
+        this.setHardness(2.0F);
+        this.setResistance(8.0F);
         this.setBlockName("GemFuser");
         this.setBlockTextureName("GemFuser");
         this.setCreativeTab(CreativeTabGemworks.Gemworks_Tab);
@@ -25,26 +27,37 @@ public class BlockGemFuser extends BlockContainer
 
     @Override
     public TileEntity createNewTileEntity(World var1, int var2) {
-
         return new TileEntityGemFuser();
+    }
+
+    public int getRenderType(){
+        return -1;
+    }
+
+    public boolean isOpaqueCube() {
+        return false;
+    }
+
+    public boolean renderAsNormalBlock(){
+        return false;
+    }
+
+    @SideOnly(cpw.mods.fml.relauncher.Side.CLIENT)
+    public void registerBlockIcons(IIconRegister iconRegister){
+        this.blockIcon = iconRegister.registerIcon(gemworks.modid + ":" + this.getUnlocalizedName().substring(5));
     }
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ){
 
-        if (world.isRemote||player.isSneaking()){
+        if (world.isRemote){
             return false;
         }
 
         else{
-            FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemfuser, world, x,y,z);
+            FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemfuser, world, x, y, z);
             return true;
         }
 
     }
-    //This will tell minecraft not to render any side of our cube.
- //   public boolean shouldSideBeRendered(IBlockAccess iblockaccess, int i, int j, int k, int l)
-
-    //And this tell it that you can see through this block, and neighbor blocks should be rendered.
- //   public boolean isOpaqueCube()
 
 }

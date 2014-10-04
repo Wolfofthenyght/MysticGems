@@ -14,7 +14,7 @@ import org.lwjgl.opengl.GL12;
 @SideOnly(Side.CLIENT)
 public class RenderEnergizedArrow extends Render
 {
-    private static final ResourceLocation arrowTextures = new ResourceLocation("textures/entity/arrow.png");
+    private static final ResourceLocation arrowTextures = new ResourceLocation("textures/entity/witheringarrow.png");
     private static final String __OBFID = "CL_00000978";
 
     /**

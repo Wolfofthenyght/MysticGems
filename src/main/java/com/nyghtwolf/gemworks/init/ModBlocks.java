@@ -14,9 +14,10 @@ public class ModBlocks
     public static final Block GemFuser = new BlockGemFuser();
     public static final BlockGemworks MysticInfuser = new BlockMysticInfuser();
 
+
     public static void init(){
 
-        GameRegistry.registerBlock(GemFuser, "GemFuser");
+        GameRegistry.registerBlock(GemFuser, "ModelGemFuser");
         GameRegistry.registerBlock(MysticInfuser, "MysticInfuser");
 
     }

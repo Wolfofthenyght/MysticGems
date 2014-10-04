@@ -26,8 +26,11 @@ public class gemworks {
     public static final int GuiGemfuser = 0;
 
    // @SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
-    @SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")
-    public static CommonProxy proxy;
+    //@SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")
+
+    @SidedProxy(clientSide="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide="com.nyghtwolf.gemworks.proxy.CommonProxy")
+
+    public static CommonProxy Wolfproxy;
     //public static ClientProxy ClientProxy;
 
 
@@ -35,12 +38,20 @@ public class gemworks {
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
+        //Items Init
         ModItems.init();
+
+        //Block Init
         ModBlocks.init();
+
+        //Entity Init
         ModTileEntities.init();
+
+        //Recipes Init
         ModRecipes.init();
-        proxy.registerProxies();
-        //ClientProxy.registerProxies();
+
+        //Renders Init
+        Wolfproxy.registerRenderThings();
     }
 
     @EventHandler
