@@ -2,7 +2,6 @@ package com.nyghtwolf.gemworks.block;
 
 import com.nyghtwolf.gemworks.creativetab.CreativeTabGemworks;
 import com.nyghtwolf.gemworks.gemworks;
-import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
