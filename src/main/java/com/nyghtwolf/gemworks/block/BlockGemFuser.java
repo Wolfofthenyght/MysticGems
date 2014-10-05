@@ -9,7 +9,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class BlockGemFuser extends BlockContainer
@@ -23,6 +22,7 @@ public class BlockGemFuser extends BlockContainer
         this.setBlockName("GemFuser");
         this.setBlockTextureName("GemFuser");
         this.setCreativeTab(CreativeTabGemworks.Gemworks_Tab);
+        this.setBlockBounds(0F, 0F, 0F, 1F, 0.95F, 1F);
     }
 
     @Override
@@ -54,7 +54,8 @@ public class BlockGemFuser extends BlockContainer
         }
 
         else{
-            FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemfuser, world, x, y, z);
+            //FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemfuser, world, x, y, z);
+            player.openGui(player, gemworks.GuiGemfuser, world, x, y, z);
             return true;
         }
 

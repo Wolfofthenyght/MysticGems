@@ -6,7 +6,7 @@ item.gemworks:MysticEssenceGem.name=Mystic Essence Gem
 item.gemworks:MysticCoreGem.name=Mystic Core Gem
 item.gemworks:MysticRegalGem.name=Mystic Regal Gem
 
-tile.gemworks:GemFuser.name=Gem Fuser
+tile.GemFuser.name=Gem Fuser
 tile.gemworks:BlockGemFuser.name=Gem Fuser
 tile.gemworks:MysticInfuser.name=Mystic Infuser
 

@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class GuiGemFuser extends GuiContainer {
 
-    public static ResourceLocation texture = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "assets/textures/gui/guiGemFuser.png");
+    public static ResourceLocation textureguiGemFuser = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "assets/textures/gui/guiGemFuser.png");
 
     public GuiGemFuser (InventoryPlayer player, TileEntityGemFuser Gemfuser){
         super(new ContainerGemFuser(player, Gemfuser));
@@ -20,7 +20,7 @@ public class GuiGemFuser extends GuiContainer {
 
     protected void drawGuiContainerBackgroundLayer (float var1, int var2,
             int var3) {
-        Minecraft.getMinecraft().getTextureManager().bindTexture(texture);
+        Minecraft.getMinecraft().getTextureManager().bindTexture(textureguiGemFuser);
         this.drawTexturedModalRect(guiLeft, guiTop,0,0,xSize,ySize);
     }
 }

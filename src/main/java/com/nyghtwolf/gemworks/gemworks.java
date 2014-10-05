@@ -6,7 +6,6 @@ import com.nyghtwolf.gemworks.init.ModBlocks;
 import com.nyghtwolf.gemworks.init.ModItems;
 import com.nyghtwolf.gemworks.init.ModRecipes;
 import com.nyghtwolf.gemworks.init.ModTileEntities;
-import com.nyghtwolf.gemworks.proxy.ClientProxy;
 import com.nyghtwolf.gemworks.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -25,7 +24,7 @@ public class gemworks {
     public static final String modid = "gemworks";
     public static final int GuiGemfuser = 0;
 
-   // @SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
+    //@SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
     //@SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")
 
     @SidedProxy(clientSide="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide="com.nyghtwolf.gemworks.proxy.CommonProxy")
