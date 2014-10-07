@@ -22,7 +22,7 @@ public class gemworks {
     @Mod.Instance("Gemworks")
     public static gemworks instance;
     public static final String modid = "gemworks";
-    public static final int GuiGemfuser = 0;
+   //public static final int GuiGemfuser = 0;
 
     //@SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
     //@SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")

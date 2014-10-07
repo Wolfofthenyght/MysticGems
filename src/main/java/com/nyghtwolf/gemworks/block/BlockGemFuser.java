@@ -2,6 +2,7 @@ package com.nyghtwolf.gemworks.block;
 
 import com.nyghtwolf.gemworks.creativetab.CreativeTabGemworks;
 import com.nyghtwolf.gemworks.gemworks;
+import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -18,10 +19,12 @@ public class BlockGemFuser extends BlockContainer
 
         this.setHardness(2.0F);
         this.setResistance(8.0F);
+        setHarvestLevel("pickaxe", 2);
         this.setBlockName("GemFuser");
         this.setBlockTextureName("GemFuser");
         this.setCreativeTab(CreativeTabGemworks.Gemworks_Tab);
-        this.setBlockBounds(0F, 0F, 0F, 1F, 0.95F, 1F);
+        //.setRenderBounds(minX, minY, minZ, maxX, maxY, maxZ)
+        this.setBlockBounds(0.05F, 0F, 0.15F, 0.95F, 0.94F, 0.85F);
     }
 
     @Override
@@ -53,8 +56,8 @@ public class BlockGemFuser extends BlockContainer
         }
 
         else{
-            //FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemfuser, world, x, y, z);
-            player.openGui(player, gemworks.GuiGemfuser, world, x, y, z);
+            //FMLNetworkHandler.openGui(player, gemworks.instance, gemworks.GuiGemFuser, world, x, y, z);
+            //player.openGui(gemworks.instance, gemworks.GuiGemfuser, world, x, y, z);
             return true;
         }
 

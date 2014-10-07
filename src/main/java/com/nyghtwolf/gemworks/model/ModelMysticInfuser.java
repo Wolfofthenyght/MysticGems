@@ -76,16 +76,6 @@ public class ModelMysticInfuser extends ModelBase
     TableRunnerSideR.render(f5);
     TableRunnerSideL.render(f5);
   }
-
-    public void RenderModel(float f){
-        Support1.render(f);
-        Support2.render(f);
-        Support3.render(f);
-        Support4.render(f);
-        TableTop.render(f);
-        TableRunnerSideR.render(f);
-        TableRunnerSideL.render(f);
-    }
   
   private void setRotation(ModelRenderer model, float x, float y, float z)
   {
@@ -99,4 +89,13 @@ public class ModelMysticInfuser extends ModelBase
     super.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
   }
 
+  public void renderModel(float f){
+      Support1.render(f);
+      Support2.render(f);
+      Support3.render(f);
+      Support4.render(f);
+      TableTop.render(f);
+      TableRunnerSideR.render(f);
+      TableRunnerSideL.render(f);
+  }
 }
