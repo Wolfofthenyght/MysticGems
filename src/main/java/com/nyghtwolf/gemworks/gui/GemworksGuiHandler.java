@@ -52,7 +52,7 @@ public class GemworksGuiHandler implements IGuiHandler{
             }
         }
         if (ID == 3){
-            return new ContainerForge(player.inventory, world,x,y,x));
+            return new ContainerGemFuser(player.inventory, world,x,y,x));
         }
         return null;
     }
@@ -73,7 +73,7 @@ public class GemworksGuiHandler implements IGuiHandler{
         }
         if (ID == 3)
         {
-            return new GuiForge(player.inventory, world, x,y,x);
+            return new GuiMysticInfuser(player.inventory, world, x,y,x);
         }
         return null;
     }
