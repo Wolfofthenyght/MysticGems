@@ -22,7 +22,8 @@ public class gemworks {
     @Mod.Instance("Gemworks")
     public static gemworks instance;
     public static final String modid = "gemworks";
-   //public static final int GuiGemfuser = 0;
+    //public static final int GuiGemfuser = 0;
+    public GemworksGuiHandler guiHandler = new GemworksGuiHandler();
 
     //@SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
     //@SidedProxy(clientSide = "com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.CommonProxy")
@@ -55,7 +56,8 @@ public class gemworks {
 
     @EventHandler
     public void init(FMLInitializationEvent event){
-        NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
+        //NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
 
     }
 

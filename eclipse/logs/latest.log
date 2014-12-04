@@ -1,36 +1,38 @@
-[21:57:08] [main/INFO]: Setting user: Player957
-[21:57:08] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:57:09] [Client thread/ERROR]: Couldn't initialize twitch stream
-[21:57:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[21:57:14] [Sound Library Loader/INFO]: Sound engine started
-[21:57:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:57:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:57:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[21:57:15] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:57:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:57:16] [Sound Library Loader/INFO]: Sound engine started
-[21:57:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:57:20] [Server thread/INFO]: Generating keypair
-[21:57:20] [Server thread/INFO]: Preparing start region for level 0
-[21:57:21] [Server thread/INFO]: Changing view distance to 8, from 10
-[21:57:21] [Server thread/INFO]: Player957[local:E:90214938] logged in with entity id 612 at (233.45968494210848, 64.0, 187.424407885494)
-[21:57:21] [Server thread/INFO]: Player957 joined the game
-[21:57:40] [Server thread/INFO]: Player957 has just earned the achievement [Taking Inventory]
-[21:57:40] [Client thread/INFO]: [CHAT] Player957 has just earned the achievement [Taking Inventory]
-[21:57:44] [Server thread/INFO]: Saving and pausing game...
-[21:57:44] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[21:57:44] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[21:57:44] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[21:58:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
-[21:58:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
-[21:58:20] [Server thread/INFO]: Saving and pausing game...
-[21:58:20] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[21:58:20] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[21:58:20] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[21:58:21] [Server thread/INFO]: Stopping server
-[21:58:21] [Server thread/INFO]: Saving players
-[21:58:21] [Server thread/INFO]: Saving worlds
-[21:58:21] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[21:58:21] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[21:58:21] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[21:58:22] [Client thread/INFO]: Stopping!
+[23:23:54] [main/INFO]: Setting user: Player715
+[23:23:54] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:23:55] [Client thread/ERROR]: Couldn't initialize twitch stream
+[23:23:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[23:23:59] [Sound Library Loader/INFO]: Sound engine started
+[23:24:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:24:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[23:24:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[23:24:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[23:24:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:24:01] [Sound Library Loader/INFO]: Sound engine started
+[23:24:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:24:03] [Server thread/INFO]: Generating keypair
+[23:24:04] [Server thread/INFO]: Preparing start region for level 0
+[23:24:04] [Server thread/INFO]: Changing view distance to 8, from 10
+[23:24:05] [Server thread/INFO]: Player715[local:E:adf182b1] logged in with entity id 399 at (238.96741904984012, 65.0, 185.03126846238723)
+[23:24:05] [Server thread/INFO]: Player715 joined the game
+[23:25:00] [Server thread/INFO]: Player715 has just earned the achievement [Taking Inventory]
+[23:25:00] [Client thread/INFO]: [CHAT] Player715 has just earned the achievement [Taking Inventory]
+[23:26:59] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[23:27:01] [Server thread/INFO]: [Player715: Set own game mode to Survival Mode]
+[23:27:01] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:27:16] [Server thread/INFO]: [Player715: Set own game mode to Creative Mode]
+[23:27:16] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:30:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[23:30:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[23:30:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[23:31:15] [Server thread/INFO]: Saving and pausing game...
+[23:31:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[23:31:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[23:31:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[23:31:16] [Server thread/INFO]: Stopping server
+[23:31:16] [Server thread/INFO]: Saving players
+[23:31:16] [Server thread/INFO]: Saving worlds
+[23:31:16] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[23:31:16] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[23:31:16] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[23:31:17] [Client thread/INFO]: Stopping!
