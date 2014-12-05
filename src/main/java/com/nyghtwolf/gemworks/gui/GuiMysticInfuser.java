@@ -1,8 +1,6 @@
 package com.nyghtwolf.gemworks.gui;
 
-import com.nyghtwolf.gemworks.block.TileEntityGemFuser;
 import com.nyghtwolf.gemworks.block.TileEntityMysticInfuser;
-import com.nyghtwolf.gemworks.inventory.ContainerGemFuser;
 import com.nyghtwolf.gemworks.inventory.ContainerMysticInfuser;
 import com.nyghtwolf.gemworks.reference.Reference;
 import net.minecraft.client.Minecraft;
