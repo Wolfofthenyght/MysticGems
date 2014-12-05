@@ -56,8 +56,8 @@ public class gemworks {
 
     @EventHandler
     public void init(FMLInitializationEvent event){
-        //NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
-        NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
+        NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
+        //NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
 
     }
 

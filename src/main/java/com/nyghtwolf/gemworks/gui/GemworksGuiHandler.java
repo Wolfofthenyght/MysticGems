@@ -2,7 +2,6 @@ package com.nyghtwolf.gemworks.gui;
 
 import com.nyghtwolf.gemworks.block.TileEntityGemFuser;
 import com.nyghtwolf.gemworks.block.TileEntityMysticInfuser;
-import com.nyghtwolf.gemworks.init.ModBlocks;
 import com.nyghtwolf.gemworks.inventory.ContainerGemFuser;
 import com.nyghtwolf.gemworks.inventory.ContainerMysticInfuser;
 import net.minecraft.block.Block;
