@@ -10,7 +10,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks
 {
-    //public static final Block GemFuser = new BlockGemFuser();
     public static final BlockMysticInfuser MysticInfuser = new BlockMysticInfuser();
     public static final BlockGemFuser GemFuser = new BlockGemFuser();
 

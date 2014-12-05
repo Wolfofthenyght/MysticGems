@@ -2,6 +2,7 @@ package com.nyghtwolf.gemworks.gui;
 
 import com.nyghtwolf.gemworks.block.TileEntityGemFuser;
 import com.nyghtwolf.gemworks.block.TileEntityMysticInfuser;
+import com.nyghtwolf.gemworks.init.ModBlocks;
 import com.nyghtwolf.gemworks.inventory.ContainerGemFuser;
 import com.nyghtwolf.gemworks.inventory.ContainerMysticInfuser;
 import net.minecraft.block.Block;
@@ -23,9 +24,9 @@ public class GemworksGuiHandler implements IGuiHandler
             return new ContainerGemFuser(player.inventory, (TileEntityGemFuser) tileEntity);
         }
 
-        else if (block == TileEntityMysticInfuser)
+        else if (tileEntity instanceof TileEntityMysticInfuser)
         {
-            return new ContainerMysticInfuser(player.inventory, world, x, y, z);
+            return new ContainerMysticInfuser(player.inventory, (TileEntityMysticInfuser) tileEntity);
         }
 
         return null;
@@ -42,9 +43,9 @@ public class GemworksGuiHandler implements IGuiHandler
             return new GuiGemFuser(player.inventory, (TileEntityGemFuser) tileEntity);
         }
 
-        else if (block == TileEntityMysticInfuser)
+        else if (tileEntity instanceof TileEntityMysticInfuser)
         {
-            return new GuiMysticInfuser(player.inventory, world, x, y, z);
+            return new GuiMysticInfuser(player.inventory, (TileEntityMysticInfuser) tileEntity);
         }
 
         return null;
