@@ -1,32 +1,46 @@
-[10:13:14] [main/INFO]: Setting user: Player427
-[10:13:15] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:13:15] [Client thread/ERROR]: Couldn't initialize twitch stream
-[10:13:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[10:13:20] [Sound Library Loader/INFO]: Sound engine started
-[10:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:13:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:13:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[10:13:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:13:21] [Sound Library Loader/INFO]: Sound engine started
-[10:13:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:13:31] [Server thread/INFO]: Generating keypair
-[10:13:31] [Server thread/INFO]: Preparing start region for level 0
-[10:13:32] [Server thread/INFO]: Changing view distance to 8, from 10
-[10:13:32] [Server thread/INFO]: Player427[local:E:95456d2e] logged in with entity id 129 at (234.69506666577112, 65.0, 186.60192308863705)
-[10:13:32] [Server thread/INFO]: Player427 joined the game
-[10:13:40] [Server thread/INFO]: Saving and pausing game...
-[10:13:40] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:13:40] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:13:40] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[10:13:51] [Server thread/INFO]: Saving and pausing game...
-[10:13:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:13:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:13:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[10:13:52] [Client thread/INFO]: Stopping!
-[10:13:52] [Server thread/INFO]: Stopping server
-[10:13:52] [Server thread/INFO]: Saving players
-[10:13:53] [Server thread/INFO]: Saving worlds
-[10:13:53] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:13:53] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:13:53] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:45:48] [main/INFO]: Setting user: Player525
+[20:45:49] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:45:50] [Client thread/ERROR]: Couldn't initialize twitch stream
+[20:45:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[20:45:59] [Sound Library Loader/INFO]: Sound engine started
+[20:46:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:46:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:46:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
+[20:46:00] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[20:46:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:46:01] [Sound Library Loader/INFO]: Sound engine started
+[20:46:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:46:10] [Server thread/INFO]: Generating keypair
+[20:46:11] [Server thread/INFO]: Preparing start region for level 0
+[20:46:12] [Server thread/INFO]: Changing view distance to 8, from 10
+[20:46:12] [Server thread/INFO]: Player525[local:E:91726bc0] logged in with entity id 214 at (235.7397016517433, 65.0, 185.48357246933398)
+[20:46:12] [Server thread/INFO]: Player525 joined the game
+[20:46:12] [Server thread/INFO]: Saving and pausing game...
+[20:46:12] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:46:12] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:46:12] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:46:15] [Server thread/INFO]: Saving and pausing game...
+[20:46:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:46:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:46:15] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:46:37] [Server thread/INFO]: Player525 has just earned the achievement [Taking Inventory]
+[20:46:37] [Client thread/INFO]: [CHAT] Player525 has just earned the achievement [Taking Inventory]
+[20:48:13] [Server thread/INFO]: Saving and pausing game...
+[20:48:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:48:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:48:13] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:48:47] [Server thread/INFO]: Saving and pausing game...
+[20:48:47] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:48:47] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:48:47] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:49:03] [Server thread/INFO]: Saving and pausing game...
+[20:49:03] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:49:03] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:49:03] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[20:49:04] [Client thread/INFO]: Stopping!
+[20:49:04] [Server thread/INFO]: Stopping server
+[20:49:04] [Server thread/INFO]: Saving players
+[20:49:04] [Server thread/INFO]: Saving worlds
+[20:49:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[20:49:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[20:49:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End

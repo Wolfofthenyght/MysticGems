@@ -5,12 +5,11 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 
-public class TileEntityMysticInfuser extends IInventory {
+public class TileEntityMysticInfuser extends TileEntity implements IInventory {
     @Override
 
     public boolean isUseableByPlayer(EntityPlayer player) {
-        return player.worldObj.getTileEntity(x, y, z) == this &&
-                player.getDistanceSq(xCoord + 0.5, yCoord + 0.5, zCoord + 0.5) < 64;
+        return player.getDistanceSq(xCoord + 0.5, yCoord + 0.5, zCoord + 0.5) < 64;
     }
 
     private ItemStack[] inv;
@@ -52,4 +51,46 @@ public class TileEntityMysticInfuser extends IInventory {
         }
         return stack;
     }
+
+	@Override
+	public ItemStack getStackInSlotOnClosing(int p_70304_1_) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getInventoryName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean hasCustomInventoryName() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int getInventoryStackLimit() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void openInventory() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void closeInventory() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isItemValidForSlot(int p_94041_1_, ItemStack p_94041_2_) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

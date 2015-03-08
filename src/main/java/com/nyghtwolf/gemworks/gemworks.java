@@ -7,22 +7,25 @@ import com.nyghtwolf.gemworks.init.ModItems;
 import com.nyghtwolf.gemworks.init.ModRecipes;
 import com.nyghtwolf.gemworks.init.ModTileEntities;
 import com.nyghtwolf.gemworks.proxy.CommonProxy;
+import com.nyghtwolf.gemworks.reference.Reference;
+
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
-
 import static cpw.mods.fml.common.Mod.EventHandler;
 
-@Mod(modid="gemworks", name="GemWorks", version="1.7.10-1.0a")
+@Mod(modid=Reference.MOD_ID, name="GemWorks", version="1.7.10-1.0a")
 public class gemworks {
 
-    @Mod.Instance("Gemworks")
+    @Instance(Reference.MOD_ID)
     public static gemworks instance;
+    
     public static final String modid = "gemworks";
-    //public static final int GuiGemfuser = 0;
+    public static final int GuiGemfuser = 0, GuiMysticfuser = 1;//Add a new identifier each gui you add!
     public GemworksGuiHandler guiHandler = new GemworksGuiHandler();
 
     //@SidedProxy(clientSide ="com.nyghtwolf.gemworks.proxy.ClientProxy", serverSide = "com.nyghtwolf.gemworks.proxy.ServerProxy")
@@ -34,9 +37,10 @@ public class gemworks {
     //public static ClientProxy ClientProxy;
 
 
-    @Mod.EventHandler
+    @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        
 
         //Items Init
         ModItems.init();
@@ -56,9 +60,9 @@ public class gemworks {
 
     @EventHandler
     public void init(FMLInitializationEvent event){
-        NetworkRegistry.INSTANCE.registerGuiHandler(modid, new GemworksGuiHandler());
+        
         //NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
-
+    	NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GemworksGuiHandler());
     }
 
     @EventHandler

@@ -11,8 +11,8 @@ import net.minecraft.util.ResourceLocation;
 
 public class GuiMysticInfuser extends GuiContainer {
 
-    //public static ResourceLocation textureguiMysticInfuser= new ResourceLocation(Reference.MOD_ID.toLowerCase(), "assets/textures/gui/guiMysticInfuser.png");
-    private static final ResourceLocation textureguiMysticInfuser = new ResourceLocation("MysticInfuserGUI", "textures/gui/guiMysticInfuser.png");
+    public static ResourceLocation textureguiMysticInfuser= new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/gui/guiMysticInfuser.png");
+    //private static final ResourceLocation textureguiMysticInfuser = new ResourceLocation("MysticInfuserGUI", "textures/gui/guiMysticInfuser.png");
     private TileEntityMysticInfuser tileEntityMysticInfuser;
     EntityPlayer player;
 

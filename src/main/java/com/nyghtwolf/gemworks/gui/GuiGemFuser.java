@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class GuiGemFuser extends GuiContainer {
 
-    public static ResourceLocation textureguiGemFuser = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "assets/textures/gui/guiGemFuser.png");
+	public static ResourceLocation textureguiGemFuser= new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/gui/guiGemFuser.png");
 
     public GuiGemFuser (InventoryPlayer player, TileEntityGemFuser Gemfuser){
         super(new ContainerGemFuser(player, Gemfuser));
