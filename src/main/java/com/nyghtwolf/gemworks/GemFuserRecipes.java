@@ -25,7 +25,7 @@ public class GemFuserRecipes
     private GemFuserRecipes()
     {
         //Some random recipe, idk?
-        this.addRecipe(new ItemStack(ModItems.EnergizedMysticGem), new ItemStack(ModItems.EnergizedMysticGem), new ItemStack(ModItems.MysticEssenceGem));
+        this.addRecipe(new ItemStack(ModItems.EnergizedMysticGem), new ItemStack(ModItems.EnergizedMysticGem), new ItemStack(ModItems.MysticCoreGem));
     }
 
     /**

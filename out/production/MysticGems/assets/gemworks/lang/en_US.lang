@@ -2,32 +2,16 @@ item.gemworks:EnergizedMysticGem.name=Energized Mystic Gem
 item.gemworks:ShimmeringMysticGem.name=Shimmering Mystic Gem
 item.gemworks:ProsperousMysticGem.name=Prosperous Mystic Gem
 item.gemworks:TimelessMysticGem.name=Timeless Mystic Gem
-item.gemworks:MysticEssenceGem.name=Mystic Essence Gem
 item.gemworks:MysticCoreGem.name=Mystic Core Gem
-item.gemworks:MysticRegalGem.name=Mystic Regal Gem
 
 tile.GemFuser.name=Gem Fuser
 tile.MysticInfuser.name=Mystic Infuser
 tile.gemworks:BlockGemFuser.name=Gem Fuser
 tile.gemworks:MysticInfuser.name=Mystic Infuser
 
-item.gemworks:SwordRedstoneT1.name=Redstone Sword (Tier1)
-item.gemworks:SwordLapisT1.name=Lapis Sword (Tier1)
-item.gemworks:SwordGlowstoneT1.name=Glowstone Sword (Tier1)
-item.gemworks:SwordQuartzT1.name=Quartz Sword (Tier1)
+item.gemworks:SwordRedstoneT1.name=Energized Sword
+item.gemworks:SwordLapisT1.name=Prosperous Sword
+item.gemworks:SwordGlowstoneT1.name=Shimmering Sword
+item.gemworks:SwordQuartzT1.name=Timeless Sword
 
-item.gemworks:SwordMysticEssenceT1.name=Mystic Essence Sword (Tier1)
-
-item.gemworks:SwordRedstoneT2.name=Redstone Sword (Tier2)
-item.gemworks:SwordLapisT2.name=Lapis Sword (Tier2)
-item.gemworks:SwordGlowstoneT2.name=Glowstone Sword (Tier2)
-item.gemworks:SwordQuartzT2.name=Quartz Sword (Tier2)
-
-item.gemworks:SwordMysticCoreT2.name=Mystic Core Sword (Tier2)
-
-item.gemworks:SwordRedstoneT3.name=Redstone Sword (Tier3)
-item.gemworks:SwordLapisT3.name=Lapis Sword (Tier3)
-item.gemworks:SwordGlowstoneT3.name=Glowstone Sword (Tier3)
-item.gemworks:SwordQuartzT3.name=Quartz Sword (Tier3)
-
-item.gemworks:SwordMysticRegalT3.name=Mystic Regal Sword (Tier3)
+item.gemworks:SwordMysticCore.name=Mystic Core Sword

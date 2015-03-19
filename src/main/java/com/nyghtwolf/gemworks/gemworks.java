@@ -18,7 +18,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import static cpw.mods.fml.common.Mod.EventHandler;
 
-@Mod(modid=Reference.MOD_ID, name="GemWorks", version="1.7.10-1.0a")
+@Mod(modid=Reference.MOD_ID, name="MysticGems", version="1.7.10-0.1a")
 public class gemworks {
 
     @Instance(Reference.MOD_ID)

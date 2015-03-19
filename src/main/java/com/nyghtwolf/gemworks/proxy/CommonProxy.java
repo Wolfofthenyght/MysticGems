@@ -9,4 +9,9 @@ public class CommonProxy{
     public void registerTileTEntitySpecialRenderer(){
 
     }
+
+    //Mystic Core Armor Render
+    public int addArmor(String armor){
+        return 0;
+    }
 }

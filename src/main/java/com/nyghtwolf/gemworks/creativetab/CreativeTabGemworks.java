@@ -12,13 +12,13 @@ public class CreativeTabGemworks
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.MysticEssenceGem;
+            return ModItems.MysticCoreGem;
         }
 
         @Override
     public String getTranslatedTabLabel()
         {
-            return "Gemworks";
+            return "Mystic Gems";
         }
     };
 }

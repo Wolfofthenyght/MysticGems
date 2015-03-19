@@ -1,26 +1,26 @@
-[10:58:08] [main/INFO]: Setting user: Player575
-[10:58:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:58:09] [Client thread/ERROR]: Couldn't initialize twitch stream
-[10:58:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[10:58:14] [Sound Library Loader/INFO]: Sound engine started
-[10:58:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:58:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:58:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Gemworks
-[10:58:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:58:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:58:15] [Sound Library Loader/INFO]: Sound engine started
-[10:58:29] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:58:29] [Server thread/INFO]: Generating keypair
-[10:58:29] [Server thread/INFO]: Preparing start region for level 0
-[10:58:30] [Server thread/INFO]: Changing view distance to 8, from 10
-[10:58:30] [Server thread/INFO]: Player575[local:E:5b7f925e] logged in with entity id 244 at (238.33033333876241, 65.0, 186.24920590409033)
-[10:58:30] [Server thread/INFO]: Player575 joined the game
-[10:59:52] [Client thread/INFO]: Stopping!
-[10:59:52] [Server thread/INFO]: Stopping server
-[10:59:52] [Server thread/INFO]: Saving players
-[10:59:52] [Server thread/INFO]: Saving worlds
-[10:59:52] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:59:52] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:59:52] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[10:59:52] [Client Shutdown Thread/INFO]: Stopping server
-[10:59:52] [Client Shutdown Thread/INFO]: Saving players
+[15:13:14] [main/INFO]: Setting user: Player836
+[15:13:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:13:15] [Client thread/ERROR]: Couldn't initialize twitch stream
+[15:13:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MysticGems
+[15:13:19] [Sound Library Loader/INFO]: Sound engine started
+[15:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:13:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:13:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MysticGems
+[15:13:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:13:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:13:21] [Sound Library Loader/INFO]: Sound engine started
+[15:13:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:13:28] [Server thread/INFO]: Generating keypair
+[15:13:28] [Server thread/INFO]: Preparing start region for level 0
+[15:13:29] [Server thread/INFO]: Changing view distance to 8, from 10
+[15:13:30] [Server thread/INFO]: Player836[local:E:116e47e3] logged in with entity id 125 at (237.4933951382124, 65.0, 185.91662717911325)
+[15:13:30] [Server thread/INFO]: Player836 joined the game
+[15:13:31] [Server thread/INFO]: Player836 has just earned the achievement [Taking Inventory]
+[15:13:31] [Client thread/INFO]: [CHAT] Player836 has just earned the achievement [Taking Inventory]
+[15:13:49] [Client thread/INFO]: Stopping!
+[15:13:49] [Server thread/INFO]: Stopping server
+[15:13:49] [Server thread/INFO]: Saving players
+[15:13:49] [Server thread/INFO]: Saving worlds
+[15:13:49] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[15:13:49] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[15:13:49] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End

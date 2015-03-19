@@ -1,10 +1,10 @@
 [
     {
         "modid": "gemworks",
-        "name": "Gemworks",
+        "name": "MysticGems",
         "url": "",
         "credits": "",
-        "version": "1.7.10-1.0a",
+        "version": "1.7.10-0.1a",
         "mcversion": "1.7.10",
         "authorList": [ "Wolfofthenyght" ],
         "description": ""
