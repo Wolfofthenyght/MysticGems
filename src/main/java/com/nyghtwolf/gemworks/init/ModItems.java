@@ -17,6 +17,9 @@ public class ModItems
     public static final ItemGemworks TimelessMysticGem = new com.nyghtwolf.gemworks.item.ItemTimelessMysticGem();
     public static final ItemGemworks MysticCoreGem = new com.nyghtwolf.gemworks.item.ItemMysticCoreGem();
 
+    //Define Gem Armor Tier 1
+    //public static Item MysticGemT1Helm = new ItemGemArmorT1(GemArmorMaterial, 0, "MysticGemT1Helm");
+
     //Define Swords
     public static final SwordRedstone SwordRedstone = new SwordRedstone();
     public static final SwordLapis SwordLapis = new SwordLapis();
@@ -25,11 +28,6 @@ public class ModItems
 
     //Define Mystic Sword
     public static final SwordMysticCore SwordMysticCore = new SwordMysticCore();
-
-    //Define MysticCore Armor
-    public static Item MysticCoreChestplateT1;
-    public static Item MysticCoreLegsT1;
-    public static Item MysticCoreBootsT1;
 
     //Define Mystic Arrows
 

@@ -8,14 +8,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 
 //Define Generic Item
-public class ItemSwordBaseTier1 extends ItemSword{
+public class ItemSwordBase extends ItemSword{
 
-    public ItemSwordBaseTier1(ToolMaterial GemT1Material)
+    public ItemSwordBase(ToolMaterial GemToolMaterial)
     {
-        super(GemT1Material);
+        super(GemToolMaterial);
         this.setCreativeTab(CreativeTabGemworks.Gemworks_Tab);
         this.maxStackSize = 1;
-        this.setNoRepair();
     }
     @Override
     public String getUnlocalizedName()

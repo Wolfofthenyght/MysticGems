@@ -15,7 +15,7 @@ public class ModBlocks
 
     public static void init(){
 
-        GameRegistry.registerBlock(GemFuser, "GemFuser");
+        //GameRegistry.registerBlock(GemFuser, "GemFuser");
         GameRegistry.registerBlock(MysticInfuser, "MysticInfuser");
     }
 }

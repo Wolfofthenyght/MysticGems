@@ -6,7 +6,7 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 //Define Specific Items
-public class SwordMysticCore extends ItemSwordBaseTier1
+public class SwordMysticCore extends ItemSwordBase
 {
     public SwordMysticCore()
     {

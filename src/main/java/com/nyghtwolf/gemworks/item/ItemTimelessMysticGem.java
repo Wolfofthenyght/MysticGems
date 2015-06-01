@@ -18,6 +18,6 @@ public class ItemTimelessMysticGem extends ItemGemworks
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par2List,boolean par4){
         par2List.add("§6§o" + "The core of this gem seems to");
         par2List.add("§6§o" + "pulse and rotate in a never");
-        par2List.add("§6§o" + "ending circle." );
+        par2List.add("§6§o" + "ending spiral." );
     }
 }

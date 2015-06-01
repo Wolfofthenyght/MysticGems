@@ -16,9 +16,12 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraft.item.ItemArmor;
+import net.minecraftforge.common.util.EnumHelper;
+
 import static cpw.mods.fml.common.Mod.EventHandler;
 
-@Mod(modid=Reference.MOD_ID, name="MysticGems", version="1.7.10-0.1a")
+@Mod(modid=Reference.MOD_ID, name="gemworks", version="1.7.10-0.1a")
 public class gemworks {
 
     @Instance(Reference.MOD_ID)
@@ -40,7 +43,14 @@ public class gemworks {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        
+
+        //Define Armor Custom Materials
+        //Integer for armor -- int[]{helm_protection,chest_protection,leg_protection,boots_protection
+        //This determines how many HALF armor bars will be filled by each piece of armor.
+        //The max number the integers can add up to is 20 which equates to full Diamond Armor Protection
+        ItemArmor.ArmorMaterial GemArmorMaterialT1 = EnumHelper.addArmorMaterial("GemArmorMaterialT1", 25 ,new int[]{2,4,2,2}, 25);
+        ItemArmor.ArmorMaterial GemArmorMaterialT2 = EnumHelper.addArmorMaterial("GemArmorMaterialT2", 35 ,new int[]{4,6,4,4}, 35);
+        ItemArmor.ArmorMaterial GemArmorMaterialT3 = EnumHelper.addArmorMaterial("GemArmorMaterialT3", 45 ,new int[]{5,5,5,5}, 45);
 
         //Items Init
         ModItems.init();

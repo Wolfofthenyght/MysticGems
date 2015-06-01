@@ -7,12 +7,12 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 //Define Specific Items
-public class SwordRedstone extends ItemSwordBaseTier1
+public class SwordRedstone extends ItemSwordBase
 {
     public SwordRedstone()
     {
         super(GemToolMaterial.GemT1Material);
-        this.setUnlocalizedName("SwordRedstoneT1");
+        this.setUnlocalizedName("SwordRedstone");
     }
     public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer entity){
         float var4 = 1.0F;

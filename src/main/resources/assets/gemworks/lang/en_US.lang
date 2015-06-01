@@ -9,9 +9,14 @@ tile.MysticInfuser.name=Mystic Infuser
 tile.gemworks:BlockGemFuser.name=Gem Fuser
 tile.gemworks:MysticInfuser.name=Mystic Infuser
 
-item.gemworks:SwordRedstoneT1.name=Energized Sword
-item.gemworks:SwordLapisT1.name=Prosperous Sword
-item.gemworks:SwordGlowstoneT1.name=Shimmering Sword
-item.gemworks:SwordQuartzT1.name=Timeless Sword
+item.gemworks:SwordRedstone.name=Energized Sword
+item.gemworks:SwordLapis.name=Prosperous Sword
+item.gemworks:SwordGlowstone.name=Shimmering Sword
+item.gemworks:SwordQuartz.name=Timeless Sword
 
 item.gemworks:SwordMysticCore.name=Mystic Core Sword
+
+item.gemworks:MysticGemArmorT1_helm= Mystic Core Helm
+item.gemworks:MysticGemArmorT1_chest= Mystic Core Chestplate
+item.gemworks:MysticGemArmorT1_legs= Mystic Core Leggings
+item.gemworks:MysticGemArmorT1_boots= Mystic Core Boots
