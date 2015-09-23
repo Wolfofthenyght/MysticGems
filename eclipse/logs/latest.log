@@ -1,24 +1,11 @@
-[16:47:12] [main/INFO]: Setting user: Player391
-[16:47:13] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:47:14] [Client thread/ERROR]: Couldn't initialize twitch stream
-[16:47:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MysticGems
-[16:47:21] [Sound Library Loader/INFO]: Sound engine started
-[16:47:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:47:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:47:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MysticGems
-[16:47:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:47:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:47:27] [Sound Library Loader/INFO]: Sound engine started
-[16:47:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:47:41] [Server thread/INFO]: Generating keypair
-[16:47:41] [Server thread/INFO]: Preparing start region for level 0
-[16:47:42] [Server thread/INFO]: Changing view distance to 8, from 10
-[16:47:43] [Server thread/INFO]: Player391[local:E:c9fc65c4] logged in with entity id 135 at (237.89500047851828, 65.0, 185.96126264753406)
-[16:47:43] [Server thread/INFO]: Player391 joined the game
-[16:57:04] [Client thread/INFO]: Stopping!
-[16:57:04] [Server thread/INFO]: Stopping server
-[16:57:04] [Server thread/INFO]: Saving players
-[16:57:04] [Server thread/INFO]: Saving worlds
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[19:54:21] [main/INFO]: Setting user: Player517
+[19:54:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:54:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:gemworks
+[19:54:28] [Sound Library Loader/INFO]: Sound engine started
+[19:54:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:54:31] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:54:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:gemworks
+[19:54:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:54:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:54:33] [Sound Library Loader/INFO]: Sound engine started
+[19:54:37] [Client thread/INFO]: Stopping!
